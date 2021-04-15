@@ -17,9 +17,6 @@ Uses the `solhint:recommended` ruleset, which itself is taken from the
  1. Install the linter and config - `npm i -D solhint https://github.com/keep-network/solhint-config-keep.git`
  2. Create your `.solhint.json`:
  ```json
-
-// TODO: Check if this works
-
 {
   "extends": "keep",
   "plugins": [
@@ -50,10 +47,7 @@ Edit the `.solhint.json`.
 
 #### Line
 Prefer `/*` over `//`, as it looks different to a comment on the rationale of code.
-
 `/* solhint-disable-next-line <rules> */`
-`/* solium-disable-previous-line <rules> */`  //TODO: check how to do this in solhint
-
 
 ### Adding a pre-commit hook
 ```yaml
