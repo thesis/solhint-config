@@ -8,13 +8,13 @@ Uses the `solhint:recommended` ruleset, which itself is taken from the
 
 ## Installation
 
-`npm i https://github.com/protofire/solhint.git`
+`npm i https://github.com/keep-network/solhint-config-keep.git`
 
 ## Usage
 
 ### Setting up a project
 
- 1. Install the linter and config - `npm i -D solhint https://github.com/protofire/solhint.git`
+ 1. Install the linter and config - `npm i -D solhint https://github.com/keep-network/solhint-config-keep.git`
  2. Create your `.solhint.json`:
  ```json
 
