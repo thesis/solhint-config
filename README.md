@@ -1,4 +1,4 @@
-# solium-config-keep
+# solhint-config-keep
 
 Standard configuration for linting Solidity code using
 [Solhint](https://github.com/protofire/solhint).
@@ -42,7 +42,7 @@ Uses the `solhint:recommended` ruleset, which itself is taken from the
 Edit the `.solhint.json`.
 
 #### File
-`/* solium-disable */`    //TODO: check how to do this in solhint
+`/* solhint-disable */`
 
 #### Code block
 `/* solhint-disable */`

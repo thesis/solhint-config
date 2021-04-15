@@ -1,47 +1,24 @@
 "use strict"
 
-// TODO: Fill the rules
+// The list of rules that can be used in Solhint can be found at:
+// https://protofire.github.io/solhint/docs/rules.html
 
+// The rules below uses the recommended rules from solhint with some
+// modifications
 module.exports = {
-  // Due to issues with Solium, shareable configs don't currently support extension.
-  // Sigh!
-  // https://sourcegraph.com/github.com/duaraghav8/Ethlint/-/blob/config/schemas/sharable-config.js
-  // 'extends': 'solium:recommended',
-
+  "extends": "solhint:recommended",
   'rules': {
-    "imports-on-top": "error",
-    "variable-declarations": "error",
-    "array-declarations": "error",
-    "no-unused-vars": "error",
-    'quotes': ['error', 'double'],
-    "value-in-payable": "error",
-    "linebreak-style": "error",
-    "error-reason": ["error", { "errorMessageMaxLength": 250 }],
-
-    "no-empty-blocks": "warning",
-    "indentation": ["error", 4],
-    "whitespace": "warning",
-    "deprecated-suicide": "warning",
-    "pragma-on-top": "error",
-    "function-whitespace": "error",
-    "semicolon-whitespace": "error",
-    "comma-whitespace": "error",
-    "operator-whitespace": "off",
-    "emit": "error",
-    "no-constant": "warning",
-    "max-len": "error",
-    "constructor": "error",
-    "visibility-first": "error",
-
-    "lbrace": "off",
-    "mixedcase": "off",
-    "camelcase": "off",
-    "uppercase": "off",
-    "blank-lines": "off",
-    "arg-overflow": "off",
-    "function-order": "error",
-    "conditionals-whitespace": "off",
-    "no-experimental": "error",
-    "no-trailing-whitespace": "warning"
+    "imports-on-top": "error",                     // recommended uses warn
+    "use-forbidden-name": "error",                 // recommended uses warn
+    "no-unused-vars": "error",                     // recommended uses warn
+    "reason-string": ["error", {"maxLength":250}], // recommended uses warn
+    "max-line-length": ["error", 145],             // not present in recommended
+    "constructor-syntax": "error",                 // recommended uses warn
+    "visibility-modifier-order": "error",          // recommended uses warn
+    "ordering": "error",                           // not used in recommended
+    "var-name-mixedcase": "off",
+    "contract-name-camelcase": "off",
+    "const-name-snakecase": "off",
+    "compiler-version": "off"
   },
 };
