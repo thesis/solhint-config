@@ -42,11 +42,11 @@ Edit the `.solhint.json`.
 `/* solhint-disable */`
 
 #### Code block
-`/* solhint-disable */`
+`/* solhint-disable */`  
 `/* solhint-enable */`
 
 #### Line
-Prefer `/*` over `//`, as it looks different to a comment on the rationale of code.
+Prefer `/*` over `//`, as it looks different to a comment on the rationale of code.  
 `/* solhint-disable-next-line <rules> */`
 
 ### Adding a pre-commit hook
