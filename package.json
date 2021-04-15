@@ -1,0 +1,26 @@
+{
+  "name": "solhint-config-keep",
+  "version": "0.1.0",
+  "description": "solhint shareable config for the Keep style",
+  "author": "keep-network",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "solhint -c index.js test/Test.sol",
+    "js:lint": "eslint *.js",
+    "js:lint:fix": "eslint --fix *.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-keep": "git+https://github.com/keep-network/eslint-config-keep.git",
+    "solhint": "^3.3.4"
+  },
+  "peerDependencies": {
+    "solhint": ">=3.3.4"
+  },
+  "dependencies": {}
+}
