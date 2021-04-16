@@ -17,7 +17,7 @@ Uses the `solhint:recommended` ruleset, which itself is taken from the
 ### Setting up a project
 
  1. Install the linter and config - `npm i -D solhint https://github.com/keep-network/solhint-config-keep.git`
- 2. Create your `.solhint.json`:
+ 2. Create your `.solhint.json` (you can add additional rules or plugins):
  ```json
 {
   "extends": "keep",
