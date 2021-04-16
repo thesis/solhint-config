@@ -21,9 +21,9 @@ Uses the `solhint:recommended` ruleset, which itself is taken from the
  ```json
 {
   "extends": "keep",
-  "plugins": [
-    "security"
-  ]
+  "plugins": [],
+  "rules": {
+  }
 }
  ```
  3. Add commands for linting to your `package.json`:
