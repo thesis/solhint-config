@@ -12,13 +12,12 @@ module.exports = {
     "use-forbidden-name": "error",                 // recommended uses warn
     "no-unused-vars": "error",                     // recommended uses warn
     "reason-string": ["error", {"maxLength": 250}],// recommended uses warn
-    "max-line-length": ["error", 80],              // not present in recommended
     "constructor-syntax": "error",                 // recommended uses warn
     "visibility-modifier-order": "error",          // recommended uses warn
-    "compiler-version": ["error", ">=0.5.0"],      // recommended uses "^0.5.8"
-    "ordering": "warn",                            // not used in recommended
+    "ordering": "error",                           // not used in recommended
     "var-name-mixedcase": "off",
     "contract-name-camelcase": "off",
     "const-name-snakecase": "off",
+    "compiler-version": "off"
   }
 }
