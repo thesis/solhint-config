@@ -13,7 +13,6 @@ module.exports = {
   "rules": {
     /* Best Practise Rules */
     "max-states-count": ["warn", 15],
-    "no-empty-blocks": "warn",
     "no-unused-vars": "error",
     "payable-fallback": "warn",
     "reason-string": ["error", {"maxLength": 250}],
