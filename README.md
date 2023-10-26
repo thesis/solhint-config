@@ -1,4 +1,4 @@
-# solhint-config-keep
+# solhint-config-thesis
 
 Standard configuration for linting Solidity code using
 [Solhint](https://github.com/protofire/solhint).  
@@ -8,25 +8,21 @@ which is no longer maintained.
 Uses the `solhint:recommended` ruleset, which itself is taken from the
 [Solidity Style Guide](https://solidity.readthedocs.io/en/v0.5.9/style-guide.html).
 
-## Installation
-
-`npm i https://github.com/keep-network/solhint-config-keep.git`
-
 ## Usage
 
 ### Setting up a project
 
- 1. Install the linter and config - `npm i -D solhint https://github.com/keep-network/solhint-config-keep.git`
- 2. Create your `.solhint.json` (you can add additional rules or plugins):
- ```json
+1. Install the linter and config - `yarn add -D solhint https://github.com/thesis/solhint-config.git`
+2. Create your `.solhint.json` (you can add additional rules or plugins):
+```json
 {
-  "extends": "keep",
+  "extends": "thesis",
   "plugins": [],
   "rules": {
   }
 }
- ```
- 3. Add commands for linting to your `package.json`:
+```
+3. Add commands for linting to your `package.json`:
  ```json
 {
   "scripts": {
