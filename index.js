@@ -31,7 +31,7 @@ module.exports = {
     "avoid-throw": "error",
     "avoid-tx-origin": "error",
     "check-send-result": "error",
-    "func-visibility": ["error", { ignoreConstructors: false }],
+    "func-visibility": ["error", { ignoreConstructors: true }],
     "multiple-sends": "error",
     "no-complex-fallback": "error",
     "no-inline-assembly": "error",
