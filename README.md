@@ -2,8 +2,6 @@
 
 Standard configuration for linting Solidity code using
 [Solhint](https://github.com/protofire/solhint).  
-`Solhint` is an alternative to [Solium(ethlint)](https://github.com/duaraghav8/Ethlint)
-which is no longer maintained.
 
 Uses the `solhint:recommended` ruleset, which itself is taken from the
 [Solidity Style Guide](https://solidity.readthedocs.io/en/v0.5.9/style-guide.html).
