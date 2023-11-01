@@ -1,8 +1,9 @@
 {
-  "name": "solhint-config-keep",
+  "name": "solhint-config-thesis",
   "version": "0.1.0",
-  "description": "solhint shareable config for the Keep style",
-  "author": "keep-network",
+  "description": "Solhint shareable config for Thesis wide projects",
+  "repository": "git@github.com:thesis/solhint-config.git",
+  "author": "Thesis",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -15,9 +16,13 @@
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-keep": "git+https://github.com/keep-network/eslint-config-keep.git",
-    "solhint": "^3.3.4"
+    "@thesis-co/eslint-config": "github:thesis/eslint-config",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3",
+    "solhint": "^3.3.4",
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "solhint": ">=3.3.4"
